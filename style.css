@@ -1,0 +1,39 @@
+
+/*form {
+  padding-top: 20px;
+  opacity: 0.5;
+  font-family: sans-serif, verdana, tahoma;
+  font-size: 2em;
+  color: red;
+  text-align: center;
+}
+*/
+.catClicks {
+  background-image:
+  url(https://c4.staticflickr.com/2/1385/624194179_c74556358c_b.jpg);
+}
+
+.catClicks2 {
+  background-image:
+  url(https://c8.staticflickr.com/3/2298/2290467335_89067c7b51_b.jpg);
+}
+
+.catClicks, .catClicks2 {
+  margin-top: 10px;
+  padding: 10px;
+  height: 400px;
+  background-size: cover;
+}
+
+span {
+  /*color: white;*/
+  font-weight: bold;
+  opacity: 1;
+}
+
+input {
+  width: 20%;
+  text-align: center;
+  opacity: 0.4;
+  color: black
+}

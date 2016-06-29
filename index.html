@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <head>
+    <title>Cat clicker</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 catClicks">
+        <form class="catOne">
+          <span>Number of clicks:</span> <input type="value" name="TextBox" id="TextBox" value="0"/>
+        </form>
+    <!--    <img src="https://c4.staticflickr.com/2/1385/624194179_c74556358c_b.jpg" class="img-responsive" id="catClicks" alt="Xuxa the Kitten #6"> -->
+      </div>
+      <div class="col-md-6 catClicks2">
+        <form class="catTwo">
+          <span>Number of clicks:</span> <input type="value" name="TextBox" id="TextBox" value="0"/>
+      <!--      <img src="https://c8.staticflickr.com/3/2298/2290467335_89067c7b51_b.jpg" class="img-responsive" id="catClicksDual" alt="Dramatic kitten"> -->
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+   $(document).ready(function(){
+      $('.catClicks').click( function() {
+        var counter = $('#TextBox').val();
+        counter++ ;
+        $('#TextBox').val(counter);
+      });
+  });
+   </script>
+</body>
+</html>
