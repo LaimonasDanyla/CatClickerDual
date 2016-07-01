@@ -14,13 +14,13 @@
     <div class="row">
       <div class="col-md-6 catClicks">
         <form class="catOne">
-          <span>Number of clicks:</span> <input type="value" name="TextBox" id="TextBox" value="0"/>
+          <span>Kitty LA has got </span> <input type="value" name="TextBox" id="TextBox" value="0"/><span> clicks!</span>
         </form>
     <!--    <img src="https://c4.staticflickr.com/2/1385/624194179_c74556358c_b.jpg" class="img-responsive" id="catClicks" alt="Xuxa the Kitten #6"> -->
       </div>
       <div class="col-md-6 catClicks2">
         <form class="catTwo">
-          <span>Number of clicks:</span> <input type="value" name="TextBox" id="TextBox" value="0"/>
+          <span>Puss in Boots has got </span> <input type="value" name="TextBox" id="TextBox" value="0"/> <span> clicks!</span>
       <!--      <img src="https://c8.staticflickr.com/3/2298/2290467335_89067c7b51_b.jpg" class="img-responsive" id="catClicksDual" alt="Dramatic kitten"> -->
       </div>
     </div>
@@ -29,7 +29,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
    $(document).ready(function(){
-      $('.catClicks').click( function() {
+      $('.catClicks .catClicks2').click( function() {
         var counter = $('#TextBox').val();
         counter++ ;
         $('#TextBox').val(counter);
