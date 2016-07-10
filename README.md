@@ -14,3 +14,6 @@ Interaction
 The number of clicks should increment when each cat picture is clicked. 
 
 Recomendation was set cats name into variable and update the DOM. 
+
+LINK to working application:
+https://laimonasdanyla.github.io/CatClickerDual/
